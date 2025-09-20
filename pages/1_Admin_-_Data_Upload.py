@@ -5,7 +5,6 @@ import xgboost as xgb
 from sklearn.model_selection import train_test_split
 from utils import load_data, get_next_version
 import auth
-
 # --- Page Setup and Authentication ---
 auth.login()
 st.set_page_config(page_title="Data Upload & Preparation", layout="wide")
